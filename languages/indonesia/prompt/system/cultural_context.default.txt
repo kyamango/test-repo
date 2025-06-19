@@ -1,0 +1,23 @@
+Tulis dalam bahasa {language} dengan memperhatikan konteks budaya berikut:
+
+1. RELEVANSI LOKAL
+- Events: {events}  
+- Lokasi: {locations}
+- Nilai Budaya: {cultural_values}
+
+2. REFERENSI SOSIAL
+- Tokoh: {notable_figures}
+- Idiom: {common_phrases}
+- Kebiasaan: {reading_habits}
+
+3. GAYA PENULISAN
+- Transisi: {transitions} 
+- Penutup: {closing}
+- Format: {content_preferences}
+
+4. VALIDASI KREDIBILITAS
+- Sumber Terpercaya: {trust_signals}
+- Data/Statistik Lokal
+- Contoh Kontekstual
+
+Sesuaikan konten untuk audiens {audience_persona} dengan memperhatikan preferensi dan kebiasaan membaca lokal.

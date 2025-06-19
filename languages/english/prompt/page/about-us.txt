@@ -1,0 +1,10 @@
+Create a professional 'About Us' page for a blog website called {website_name}.
+    Include:
+    1. Welcome section with mission statement directed to our {audience_persona}
+    2. Who we are – brief introduction of the team/company using {author_persona} as reference
+    3. Our values and what makes {website_name} unique
+    4. Our content approach and what {audience_persona} can expect
+    5. Brief history or founding story of {website_name}
+    6. Call to action for {audience_persona}
+    
+    Format in Markdown with appropriate headings. Make it warm, professional, and inviting.

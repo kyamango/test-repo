@@ -1,0 +1,11 @@
+Create an engaging, SEO-friendly title for an article about '{keyword}' in {language} language.
+The title MUST:
+- Include the EXACT keyword '{keyword}' (non-negotiable)
+- Be attention-grabbing and interesting
+- Be between 40-60 characters if possible
+- Use power words if appropriate
+- NOT be in English unless {language} is English
+
+Example format:
+- For keyword "baterai hp awet berapa jam": "Baterai HP Awet Berapa Jam? Tips Maksimalkan Daya Tahan!"
+- The exact keyword "{keyword}" MUST appear in the title

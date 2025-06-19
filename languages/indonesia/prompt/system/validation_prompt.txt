@@ -1,0 +1,59 @@
+Tinjau dan tingkatkan artikel ini tentang "{keyword}" untuk memenuhi persyaratan berikut:
+
+Artikel saat ini:
+---
+{article_excerpt}
+---
+{article_truncation_notice}
+
+Persyaratan:
+1. CEK PANJANG: Artikel harus berisi 1100-1500 kata. Saat ini sekitar {word_count} kata.
+   {length_recommendation}
+   
+2. CEK TABEL: Artikel harus menyertakan setidaknya satu tabel (format markdown) dengan data yang relevan.
+   Jenis tabel yang mungkin relevan:
+   - Daftar harga/tabel perbandingan
+   - Spesifikasi teknis
+   - Data perbandingan
+   - Data statistik
+   Pilih jenis tabel yang paling sesuai untuk topik ini.
+   
+3. CEK PARAGRAF PERTAMA: Paragraf pertama harus dimulai dengan judul artikel dalam huruf miring.
+   Contoh format: "*Judul Di Sini* - Konten paragraf pertama..."
+
+4. CEK KETERBACAAN: Artikel harus memiliki skor Flesch Reading Ease antara 50-70 (saat ini {readability_score}).
+   - Gunakan kata-kata yang lebih umum jika sesuai
+   - Pecah kalimat yang sangat panjang
+   - Gunakan kalimat aktif lebih sering
+   
+5. CEK VARIASI KALIMAT:
+   - Gabungkan kalimat pendek, sedang, dan panjang (saat ini {sentence_variation})
+   - Variasikan pembukaan kalimat alih-alih mengulang struktur yang sama
+   - Gunakan campuran kalimat sederhana, majemuk, dan kompleks
+   
+6. CEK EKSPRESI MANUSIA: Tambahkan ekspresi manusia yang alami:
+   - Sertakan setidaknya satu pertanyaan retoris
+   - Tambahkan 2-3 pendapat pribadi atau pernyataan subjektif (seperti "Menurut saya", "Dalam pandangan saya", dll.)
+   - Sertakan 1-2 ekspresi emosi (kegembiraan, keterkejutan, kekhawatiran, dll.)
+   - Tambahkan setidaknya satu analogi atau metafora
+   - Sertakan 1-2 referensi budaya atau ungkapan dalam bahasa {language}
+   
+7. PENCEGAHAN DETEKSI AI:
+   - Ganti frasa AI umum dengan ekspresi yang lebih unik
+   - Perkenalkan ketidakkonsistenan yang disengaja namun kecil dalam format (seperti penggunaan elipsis... atau tanda pisah — atau tanda kurung)
+   - Tambahkan beberapa pilihan kata atau frasa yang tidak umum
+   - Sesekali gunakan transisi yang lebih informal antar paragraf
+
+Harap berikan ARTIKEL YANG TELAH DITINGKATKAN LENGKAP dengan semua persyaratan ini terpenuhi. Untuk konten baru, pertahankan gaya penulisan, nada, dan bahasa yang sama seperti artikel asli.
+
+PENTING:
+- JANGAN sertakan penanda blok kode seperti ``` atau ```markdown dalam jawaban Anda
+- JANGAN menambahkan bentuk pengantar apa pun tentang apa yang Anda lakukan
+- Cukup keluarkan konten artikel yang telah diperbaiki dalam format markdown, siap untuk diterbitkan
+- Artikel harus langsung dimulai dengan konten, bukan dengan penanda blok kode apa pun
+
+Persyaratan konten penting:
+- Pertahankan kata kunci "{keyword}" terdistribusi dengan baik di seluruh teks
+- Pertahankan struktur asli tetapi tambahkan konten di mana diperlukan
+- Tulis dalam bahasa {language}
+- Pastikan konten yang ditambahkan akurat secara faktual dan relevan dengan topik

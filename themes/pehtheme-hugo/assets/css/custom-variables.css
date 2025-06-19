@@ -1,0 +1,48 @@
+:root {
+    /* Light mode variables */
+    --color-background: {{ .Site.Params.colors.light_background | default "#ffffff" }};
+    --color-text: {{ .Site.Params.colors.light_text | default "#333333" }};
+    --color-accent: {{ .Site.Params.colors.light_accent | default "#3b82f6" }};
+    --color-secondary: {{ .Site.Params.colors.light_secondary | default "#f4f4f5" }};
+    --color-hover: {{ .Site.Params.colors.light_hover | default "#e4e4e7" }};
+  }
+  
+  .dark {
+    /* Dark mode variables */
+    --color-background: {{ .Site.Params.colors.dark_background | default "#121212" }};
+    --color-text: {{ .Site.Params.colors.dark_text | default "#e0e0e0" }};
+    --color-accent: {{ .Site.Params.colors.dark_accent | default "#3b82f6" }};
+    --color-secondary: {{ .Site.Params.colors.dark_secondary | default "#27272a" }};
+    --color-hover: {{ .Site.Params.colors.dark_hover | default "#3f3f46" }};
+  }
+  
+  /* Override Tailwind classes with custom variables */
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  .bg-blue-500 {
+    background-color: var(--color-accent) !important;
+  }
+  
+  .bg-zinc-100 {
+    background-color: var(--color-secondary) !important;
+  }
+  
+  .hover\:bg-zinc-100:hover {
+    background-color: var(--color-secondary) !important;
+  }
+  
+  .hover\:bg-zinc-200:hover {
+    background-color: var(--color-hover) !important;
+  }
+  
+  /* Dark mode specific styles */
+  .dark a {
+    color: {{ .Site.Params.colors.dark_link | default "#90caf9" }};
+  }
+  
+  .dark hr {
+    border-color: #444;
+  }

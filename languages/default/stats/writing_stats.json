@@ -1,0 +1,58 @@
+{
+    "aplikasi lacak lokasi HP android": {
+        "date": "2025-04-30T09:43:30",
+        "language": "Indonesian",
+        "tone": "Humorous",
+        "copywriting_style": "StoryBrand",
+        "writing_model": "Tutorial"
+    },
+    "handphone rahasia kunci basics best": {
+        "date": "2025-04-30T09:44:31",
+        "language": "Indonesian",
+        "tone": "Enthusiastic",
+        "copywriting_style": "4U",
+        "writing_model": "Tutorial"
+    },
+    "melacak lokasi HP yang hilang": {
+        "date": "2025-04-30T18:42:02",
+        "language": "English",
+        "tone": "Friendly",
+        "copywriting_style": "Power of 3",
+        "writing_model": "Tutorial"
+    },
+    "5 HP dengan gpu tertinggi": {
+        "date": "2025-04-30T18:43:04",
+        "language": "English",
+        "tone": "Formal",
+        "copywriting_style": "QUEST",
+        "writing_model": "Tutorial"
+    },
+    "cara mematikan suhu telepon": {
+        "date": "2025-05-01T07:10:32",
+        "language": "English",
+        "tone": "Friendly",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "cara mengecek suhu ponsel": {
+        "date": "2025-05-01T07:11:22",
+        "language": "English",
+        "tone": "Casual",
+        "copywriting_style": "Power of 3",
+        "writing_model": "Tutorial"
+    },
+    "artificial intelligence": {
+        "date": "2025-05-02T18:04:06",
+        "language": "en",
+        "tone": "Technical",
+        "copywriting_style": "Power of 3",
+        "writing_model": "Expository"
+    },
+    "data science": {
+        "date": "2025-05-02T18:05:01",
+        "language": "en",
+        "tone": "Formal",
+        "copywriting_style": "4C",
+        "writing_model": "Narrative"
+    }
+}

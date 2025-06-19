@@ -1,0 +1,11 @@
+Buat judul yang menarik dan ramah SEO untuk artikel tentang '{keyword}' dalam bahasa {language}.
+Judul HARUS:
+- Menyertakan kata kunci TEPAT '{keyword}' (tidak bisa ditawar)
+- Menarik perhatian dan memikat
+- Antara 40-60 karakter jika memungkinkan
+- Gunakan kata-kata kuat jika sesuai
+- TIDAK dalam bahasa Inggris kecuali {language} adalah bahasa Inggris
+
+Format contoh:
+- Untuk kata kunci "baterai hp awet berapa jam": "Baterai HP Awet Berapa Jam? Tips Maksimalkan Daya Tahan!"
+- Kata kunci tepat "{keyword}" HARUS muncul dalam judul

@@ -1,0 +1,60 @@
+[general]:
+murah
+terbaik
+terbaru
+review
+harga
+jual
+beli
+rekomendasi
+tips
+tutorial
+cara
+
+[comparison]:
+vs
+versus
+dibandingkan
+perbandingan
+terbaik
+pilihan
+
+[price]:
+murah
+mahal
+harga
+diskon
+promo
+sale
+
+[location]:
+online
+offline
+marketplace
+toko
+shop
+store
+
+[quality]:
+terbaik
+terburuk
+berkualitas
+original
+asli
+palsu
+kw
+
+[brand]:
+merek
+merk
+brand
+produk
+
+[product]:
+{niche}
+produk {niche}
+jual {niche}
+beli {niche}
+{niche} murah
+{niche} terbaik
+review {niche}

@@ -1,0 +1,1 @@
+Buat deskripsi singkat untuk artikel tentang '{keyword}' dalam bahasa {language}. Deskripsi harus mengandung kata kunci '{keyword}', informatif, menarik bagi pembaca, dan tidak lebih dari 160 karakter. Deskripsi ini akan digunakan untuk meta description SEO.

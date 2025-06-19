@@ -1,0 +1,194 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Dynamic title for SEO -->
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<!-- Dynamic description for SEO -->
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.description }}{{ end }}">
+{{- partialCached "head/css.html" . -}}
+{{- partialCached "head/favicon.html" . -}}
+{{- /* template "_internal/google_analytics.html" . */ -}}
+
+<!-- Dynamic Schema.org JSON-LD based on schema_type -->
+{{ if not .IsHome }}
+{{ $schemaType := .Params.schema_type | default "BlogPosting" }}
+
+{{ if eq $schemaType "Product" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .Params.product.name | default .Title }}",
+  "description": "{{ .Params.description }}",
+  "image": "{{ if .Params.featuredImage }}{{ .Params.featuredImage | absURL }}{{ else }}{{ .Site.Params.defaultImage | absURL }}{{ end }}",
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ .Params.product.brand | default .Site.Title }}"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ .Params.product.price | default "0" }}",
+    "priceCurrency": "{{ .Params.product.currency | default "USD" }}",
+    "availability": "https://schema.org/{{ .Params.product.availability | default "InStock" }}"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ .Params.product.rating | default "5" }}",
+    "ratingCount": "{{ .Params.product.ratingCount | default "1" }}"
+  },
+  "category": "{{ .Params.product.category | default (index .Params.categories 0) }}"
+}
+</script>
+
+{{ else if eq $schemaType "NewsArticle" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Params.news.headline | default .Title }}",
+  "description": "{{ .Params.description }}",
+  "image": "{{ if .Params.featuredImage }}{{ .Params.featuredImage | absURL }}{{ else }}{{ .Site.Params.defaultImage | absURL }}{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author }}"{{ with .Params.authorLink }},
+    "url": "{{ . | absURL }}"{{ end }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Params.news.publisher | default .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.Params.logo | default "/logo.png" | absURL }}"
+    }
+  },
+  "datePublished": "{{ .Params.news.datePublished | default .Date.Format "2006-01-02T15:04:05-07:00" }}",
+  "dateModified": "{{ .Params.news.dateModified | default .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "articleSection": "{{ .Params.news.section | default (index .Params.categories 0) }}"{{ with .Params.news.location }},
+  "contentLocation": {
+    "@type": "Place",
+    "name": "{{ . }}"
+  }{{ end }}
+}
+</script>
+
+{{ else if eq $schemaType "Person" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Params.person.name | default .Title }}",
+  "description": "{{ .Params.person.description | default .Params.description }}",
+  "jobTitle": "{{ .Params.person.jobTitle | default "Professional" }}",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ .Params.person.worksFor | default .Site.Title }}"
+  },
+  "image": "{{ if .Params.featuredImage }}{{ .Params.featuredImage | absURL }}{{ else }}{{ .Site.Params.defaultImage | absURL }}{{ end }}",
+  "url": "{{ .Permalink }}"{{ if .Params.person.sameAs }},
+  "sameAs": [{{ range $i, $e := .Params.person.sameAs }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]{{ end }}
+}
+</script>
+
+{{ else if eq $schemaType "LocalBusiness" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ .Params.business.name | default .Title }}",
+  "description": "{{ .Params.business.description | default .Params.description }}",
+  "image": "{{ if .Params.featuredImage }}{{ .Params.featuredImage | absURL }}{{ else }}{{ .Site.Params.defaultImage | absURL }}{{ end }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Params.business.address | default "Local Area" }}"
+  },
+  "telephone": "{{ .Params.business.telephone | default "+1-555-0123" }}",
+  "priceRange": "{{ .Params.business.priceRange | default "$$" }}",
+  "openingHours": "{{ .Params.business.openingHours | default "Mo-Fr 09:00-17:00" }}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ .Params.business.rating | default "5" }}",
+    "ratingCount": "{{ .Params.business.ratingCount | default "1" }}"
+  },
+  "url": "{{ .Permalink }}"
+}
+</script>
+
+{{ else if eq $schemaType "Service" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Params.service.name | default .Title }}",
+  "serviceType": "{{ .Params.service.serviceType | default "Professional Service" }}",
+  "description": "{{ .Params.service.description | default .Params.description }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "{{ .Params.service.provider | default .Site.Title }}"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "{{ .Params.service.areaServed | default "Global" }}"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ .Params.service.rating | default "5" }}",
+    "ratingCount": "{{ .Params.service.ratingCount | default "1" }}"
+  },
+  "url": "{{ .Permalink }}"
+}
+</script>
+
+{{ else }}
+<!-- Default BlogPosting Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.description }}",
+  "image": "{{ if .Params.featuredImage }}{{ .Params.featuredImage | absURL }}{{ else }}{{ .Site.Params.defaultImage | absURL }}{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author }}"{{ with .Params.authorLink }},
+    "url": "{{ . | absURL }}"{{ end }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.Params.logo | default "/logo.png" | absURL }}"
+    }
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "keywords": [{{ range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}],
+  "articleSection": [{{ range $i, $e := .Params.categories }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]
+}
+</script>
+{{ end }}
+
+{{ else }}
+<!-- Schema for Homepage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}

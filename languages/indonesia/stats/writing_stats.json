@@ -1,0 +1,632 @@
+{
+    "aplikasi lacak lokasi HP android": {
+        "date": "2025-04-30T09:43:30",
+        "language": "Indonesian",
+        "tone": "Humorous",
+        "copywriting_style": "StoryBrand",
+        "writing_model": "Tutorial"
+    },
+    "handphone rahasia kunci basics best": {
+        "date": "2025-04-30T09:44:31",
+        "language": "Indonesian",
+        "tone": "Enthusiastic",
+        "copywriting_style": "4U",
+        "writing_model": "Tutorial"
+    },
+    "melacak lokasi HP yang hilang": {
+        "date": "2025-04-30T18:42:02",
+        "language": "English",
+        "tone": "Friendly",
+        "copywriting_style": "Power of 3",
+        "writing_model": "Tutorial"
+    },
+    "5 HP dengan gpu tertinggi": {
+        "date": "2025-04-30T18:43:04",
+        "language": "English",
+        "tone": "Formal",
+        "copywriting_style": "QUEST",
+        "writing_model": "Tutorial"
+    },
+    "cara mematikan suhu telepon": {
+        "date": "2025-05-01T07:10:32",
+        "language": "English",
+        "tone": "Friendly",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "cara mengecek suhu ponsel": {
+        "date": "2025-05-01T07:11:22",
+        "language": "English",
+        "tone": "Casual",
+        "copywriting_style": "Power of 3",
+        "writing_model": "Tutorial"
+    },
+    "artificial intelligence": {
+        "date": "2025-05-02T18:04:06",
+        "language": "en",
+        "tone": "Technical",
+        "copywriting_style": "Power of 3",
+        "writing_model": "Expository"
+    },
+    "data science": {
+        "date": "2025-05-02T18:05:01",
+        "language": "en",
+        "tone": "Formal",
+        "copywriting_style": "4C",
+        "writing_model": "Narrative"
+    },
+    "history origin of english language": {
+        "date": "2025-05-07T17:27:46",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "history development of periodic table": {
+        "date": "2025-05-07T17:28:29",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "ancient civilizations history book": {
+        "date": "2025-05-08T06:09:04",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "ancient civilization history pdf": {
+        "date": "2025-05-08T06:10:06",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "curiosity chronicles medieval history": {
+        "date": "2025-05-08T06:23:11",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "ancient history artifacts for sale": {
+        "date": "2025-05-08T06:24:38",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "historical context art history": {
+        "date": "2025-05-08T06:38:47",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "archaeological discoveries that changed history": {
+        "date": "2025-05-08T06:40:16",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "history most important events": {
+        "date": "2025-05-08T10:56:59",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "historical figures black history month": {
+        "date": "2025-05-08T11:01:12",
+        "language": "en",
+        "tone": "Professional",
+        "copywriting_style": "AIDA",
+        "writing_model": "Informative"
+    },
+    "cara handphone masuk air": {
+        "date": "2025-05-09T11:19:11",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "cara handphone sambung ke tv": {
+        "date": "2025-05-09T11:22:43",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "cara handphone tidak ngelag": {
+        "date": "2025-05-09T12:32:18",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "cara melacak handphone yang hilang": {
+        "date": "2025-05-09T12:36:43",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "kenapa handphone tidak ada suaranya": {
+        "date": "2025-05-10T03:02:54",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "merk handphone baterainya awet": {
+        "date": "2025-05-10T04:50:28",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "merk handphone ram besar": {
+        "date": "2025-05-10T05:24:37",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "cara membandingkan size ram handphone": {
+        "date": "2025-05-10T07:33:11",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "ciri-ciri layar handphone amoled": {
+        "date": "2025-05-10T10:55:01",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "layar amoled dan kamera": {
+        "date": "2025-05-11T05:38:36",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "budget phones handphone best": {
+        "date": "2025-05-11T10:17:36",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "AIDA",
+        "writing_model": "Tutorial"
+    },
+    "5 hp baterai terbaik": {
+        "date": "2025-05-11T17:44:18",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "hp gaming 16 terbaik": {
+        "date": "2025-05-11T17:45:34",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "harga hp game berat untuk": {
+        "date": "2025-05-12T10:58:07",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "apakah handphone sudah network 5g": {
+        "date": "2025-05-12T11:02:11",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "handphone baterai tahan lama": {
+        "date": "2025-05-13T11:16:58",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "handphone baterai daya tahan lama": {
+        "date": "2025-05-13T11:20:20",
+        "language": "id",
+        "tone": "Teknis",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "internal memori pada handphone": {
+        "date": "2025-05-13T21:05:35",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "handphone harga murah kamera jernih": {
+        "date": "2025-05-13T21:07:52",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "handphone android ram besar": {
+        "date": "2025-05-14T15:48:10",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "handphone fast charging dibawah 2 juta": {
+        "date": "2025-05-24T07:33:20",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "iphone layar sentuh tidak bisa": {
+        "date": "2025-05-24T13:17:08",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "hp iphone memori besar": {
+        "date": "2025-05-24T13:18:54",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "cara besarkan ram hp": {
+        "date": "2025-05-25T05:42:41",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "apa itu fitur NFC pada ponsel": {
+        "date": "2025-05-28T12:25:45",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "fitur pengisian daya ponsel tanpa kabel": {
+        "date": "2025-05-28T12:28:52",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "iphone layar mati tapi masih hidup": {
+        "date": "2025-05-30T04:25:05",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "layar iphone tidak bisa disentuh": {
+        "date": "2025-05-30T04:27:42",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "perbedaan Xiaomi vs iPhone 15": {
+        "date": "2025-05-31T12:34:11",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "tutorial layar iphone belah": {
+        "date": "2025-06-18T06:28:49",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "fitur tersembunyi kalkulator iphone": {
+        "date": "2025-06-18T06:31:49",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "nomor ponsel yang dimasukkan sudah tersedia": {
+        "date": "2025-06-01T06:39:30",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "harga samsung anti air": {
+        "date": "2025-06-01T09:29:17",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "10 hp samsung tahan air": {
+        "date": "2025-06-01T11:52:52",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "hp samsung anti debu": {
+        "date": "2025-06-01T11:51:36",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "samsung kamera 4 kotak": {
+        "date": "2025-06-01T13:05:22",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "samsung kamera 3 ke bawah": {
+        "date": "2025-06-01T13:06:16",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "FAB",
+        "writing_model": "Deskriptif"
+    },
+    "harga ponsel oppo terbaru": {
+        "date": "2025-06-13T05:00:44",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "ponsel murah dengan ram besar": {
+        "date": "2025-06-03T19:12:05",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "PAS",
+        "writing_model": "Ekspositori"
+    },
+    "ponsel murah dengan kamera bagus": {
+        "date": "2025-06-04T16:40:19",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "review kamera samsung a16": {
+        "date": "2025-06-04T17:06:26",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "tutorial kamera samsung tidak mirror": {
+        "date": "2025-06-04T17:08:49",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "daftar hp Huawei terbaru": {
+        "date": "2025-06-06T08:40:47",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "10 hp Huawei terbaik": {
+        "date": "2025-06-08T02:32:17",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "iphone terbaru berapa": {
+        "date": "2025-06-08T04:58:13",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "apa itu kapasitas maksimum baterai iphone": {
+        "date": "2025-06-08T04:59:56",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "fitur pengisian daya hp oppo": {
+        "date": "2025-06-09T02:43:02",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "hp oppo murah dengan kamera bagus": {
+        "date": "2025-06-13T05:02:30",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "oppo terbaru 2025 dan harga": {
+        "date": "2025-06-13T06:20:46",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "oppo terbaru dengan harga 2 jutaan": {
+        "date": "2025-06-13T06:22:47",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "ponsel oppo harga 1 jutaan terbaik": {
+        "date": "2025-06-14T02:22:26",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "samsung kamera ultra wide murah": {
+        "date": "2025-06-14T02:25:31",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "samsung s24 ultra spesifikasi": {
+        "date": "2025-06-14T02:26:46",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "harga hp huawei murah": {
+        "date": "2025-06-17T08:55:11",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "daftar hp huawei terbaru": {
+        "date": "2025-06-17T06:42:46",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "fitur siri huawei": {
+        "date": "2025-06-17T08:57:22",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "huawei perangkat lunak": {
+        "date": "2025-06-17T12:27:50",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "harga hp huawei terbaru": {
+        "date": "2025-06-17T12:31:45",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "beli huawei original online": {
+        "date": "2025-06-17T13:09:58",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "promo diskon huawei terbaru": {
+        "date": "2025-06-17T13:12:36",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "beli laptop huawei online": {
+        "date": "2025-06-17T13:31:35",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "promo smartwatch huawei murah": {
+        "date": "2025-06-17T13:34:40",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "samsung terbaru vs huawei terbaru": {
+        "date": "2025-06-17T13:58:48",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "samsung terbaru vs huawei": {
+        "date": "2025-06-17T14:01:23",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "panduan untuk harga terbaru huawei": {
+        "date": "2025-06-17T17:06:36",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "harga terbaru huawei": {
+        "date": "2025-06-17T17:09:02",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "beli huawei original": {
+        "date": "2025-06-18T03:06:04",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "promo huawei terbaru": {
+        "date": "2025-06-18T03:07:14",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "harga iphone 16e di Indonesia": {
+        "date": "2025-06-18T13:49:45",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "iphone murah di bawah 1 juta": {
+        "date": "2025-06-18T13:53:14",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "kode iphone resmi indonesia": {
+        "date": "2025-06-19T04:17:08",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    },
+    "iphone resmi adalah bea cukai": {
+        "date": "2025-06-19T04:21:19",
+        "language": "id",
+        "tone": "Ramah",
+        "copywriting_style": "AIDA",
+        "writing_model": "Ekspositori"
+    }
+}

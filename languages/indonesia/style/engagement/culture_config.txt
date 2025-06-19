@@ -1,0 +1,35 @@
+{
+    "events": [
+        "Hari Kemerdekaan", "Lebaran", "Tahun Baru",
+        "Harbolnas", "Hari Pahlawan", "Final Liga Champions",
+        "Halloween", "Natal", "17 Agustus"
+    ],
+    "locations": [
+        "Jakarta", "Surabaya", "Bandung", 
+        "Silicon Valley", "SCBD", "Thamrin",
+        "Bali", "Malioboro", "Ancol"
+    ],
+    "cuisines": [
+        "Rendang", "Nasi Goreng", "Sate",
+        "Soto", "Bakso", "Gado-gado",
+        "Pempek", "Gudeg", "Ayam Goreng"
+    ],
+    "notable_figures": [
+        "Soekarno", "Bung Hatta", "Joko Widodo",
+        "BJ Habibie", "Gojek", "Tokopedia",
+        "RA Kartini", "WR Supratman", "Cut Nyak Dien"
+    ],
+    "cultural_values": [
+        "Gotong Royong", "Musyawarah", "Inovasi",
+        "Kewirausahaan", "Bhinneka Tunggal Ika", "Kesetaraan",
+        "Demokrasi", "Kebebasan Berpendapat", "Etos Kerja"
+    ],
+    "modern_trends": [
+        "Media Sosial", "Kerja Remote", "Layanan Streaming",
+        "Teknologi Ramah Lingkungan", "Pembayaran Digital", "E-commerce"
+    ],
+    "media_references": [
+        "Film Populer", "Acara TV", "Konten Viral",
+        "Berita Teknologi", "Platform Sosial", "Budaya Digital"
+    ]
+}

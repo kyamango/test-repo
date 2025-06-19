@@ -1,0 +1,7 @@
+Professional: Clear, authoritative language with industry-specific terminology where appropriate.
+Formal: Structured sentences, proper grammar, and no contractions or slang.
+Casual: Relaxed language, shorter sentences, and occasional colloquialisms.
+Friendly: Warm, inviting tone with personal touches and 'you' references.
+Enthusiastic: Energetic language with exclamation marks, positive adjectives, and motivational phrases.
+Humorous: Light, entertaining style with amusing observations and wordplay.
+Technical: Precise terminology, detailed explanations, and fact-focused content.

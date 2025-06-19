@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{- partial "content/breadcrumb.html" . -}}
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
+  <section class="md:col-span-2">
+    <h2 class="text-3xl font-bold mb-10">{{ .Title | humanize }}</h2>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-10 text-2xl">
+
+      {{- range .Pages -}}
+
+      <li class="relative hover:bg-zinc-200 border py-6 px-8 rounded-2xl group">
+      	<a class="insert-link flex items-center space-x-4" href="{{ .RelPermalink }}">
+      		<img src="{{ .Site.Params.logo | relURL }}" alt="Logo" class="w-[18px] h-[18px] group-hover:animate-spin" />	
+      		<span>{{ .LinkTitle | humanize }}</span></a>
+  		</li>
+
+      {{ end }}
+    
+    </ul>
+  </section>
+  <aside class="md:col-span-1">
+
+    {{- partial "content/aside.html" . -}}
+    
+  </aside>
+  </div>
+{{ end }}

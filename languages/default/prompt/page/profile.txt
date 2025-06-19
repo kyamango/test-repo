@@ -1,0 +1,10 @@
+Create a unique and detailed professional profile for an author named {author} on {website_name}.
+    Include:
+    1. A compelling bio paragraph (3–4 sentences) highlighting {author_persona} unique expertise and background
+    2. 4–6 specific areas of expertise (different for each author)
+    3. Educational background (1–2 sentences)
+    4. Professional experience (2–3 sentences)
+    5. A brief section on personal interests or hobbies (1–2 sentences)
+    
+    Make it sound authentic, professional, and varied from other authors. Do not use generic descriptions.
+    Format in Markdown with appropriate headings.

@@ -1,0 +1,35 @@
+{
+    "acara": [
+        "Hari Kemerdekaan", "Lebaran", "Tahun Baru",
+        "Harbolnas", "Hari Buruh", "Final Piala AFF",
+        "Cap Go Meh", "Natal", "17 Agustus"
+    ],
+    "lokasi": [
+        "Jakarta", "Surabaya", "Bandung", 
+        "Kawasan Industri", "SCBD", "Monas",
+        "Malioboro", "Kota Tua", "Ancol"
+    ],
+    "makanan": [
+        "Nasi Goreng", "Sate", "Rendang",
+        "Gado-gado", "Bakso", "Soto",
+        "Mie Goreng", "Pempek", "Gudeg"
+    ],
+    "tokoh": [
+        "Soekarno", "Bung Hatta", "B.J. Habibie",
+        "Gojek", "Tokopedia", "Bukalapak",
+        "Prof. Habibie", "R.A. Kartini", "Ki Hadjar Dewantara"
+    ],
+    "nilai_budaya": [
+        "Gotong Royong", "Musyawarah", "Inovasi",
+        "Kewirausahaan", "Keberagaman", "Kesetaraan",
+        "Demokrasi", "Kebebasan Berpendapat", "Etos Kerja"
+    ],
+    "tren_modern": [
+        "Media Sosial", "Kerja Remote", "Layanan Streaming",
+        "Teknologi Ramah Lingkungan", "Dompet Digital", "E-commerce"
+    ],
+    "referensi_media": [
+        "Film Populer", "Sinetron", "Konten Viral",
+        "Berita Teknologi", "Platform Sosial", "Budaya Digital"
+    ]
+}

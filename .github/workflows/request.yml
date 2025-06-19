@@ -1,0 +1,92 @@
+name: Download Workflow Files
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+    paths:
+      - '.github/workflows/request.yml'
+      - '.github/workflows/cleanup.yml'
+
+jobs:
+  download-workflows:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub cryptography requests
+
+      - name: Create core directories
+        run: |
+          mkdir -p core/github
+          mkdir -p core/scripts
+          mkdir -p core/config
+
+      - name: Download content-pipeline.yml
+        run: python core/scripts/workflow_request.pyc content-pipeline.yml
+
+      - name: Download validate.yml
+        run: python core/scripts/workflow_request.pyc validate.yml
+
+      - name: Download recycle-and-deploy.yml
+        run: python core/scripts/workflow_request.pyc recycle-and-deploy.yml
+
+      - name: Move downloaded files to workflows directory
+        run: |
+          if [ -f core/github/content-pipeline.yml ]; then
+            mv core/github/content-pipeline.yml .github/workflows/
+            echo "Moved content-pipeline.yml to workflows directory"
+          fi
+          
+          if [ -f core/github/validate.yml ]; then
+            mv core/github/validate.yml .github/workflows/
+            echo "Moved validate.yml to workflows directory"
+          fi
+          
+          if [ -f core/github/recycle-and-deploy.yml ]; then
+            mv core/github/recycle-and-deploy.yml .github/workflows/
+            echo "Moved recycle-and-deploy.yml to workflows directory"
+          fi
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push workflow files
+        run: |
+          git add .github/workflows/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-download workflow files from admin repo"
+            git push
+          fi
+
+      - name: Clean up temporary files
+        run: |
+          rm -f core/github/*.yml
+          echo "Cleaned up temporary files"
+
+      - name: Verify workflow files
+        run: |
+          echo "Checking downloaded workflow files:"
+          ls -la .github/workflows/
+          echo "Available workflows:"
+          for file in .github/workflows/*.yml; do
+            if [ -f "$file" ]; then
+              echo "✓ $(basename "$file")"
+            fi
+          done

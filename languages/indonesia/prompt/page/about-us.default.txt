@@ -1,0 +1,10 @@
+Buat halaman 'Tentang Kami' yang profesional untuk situs blog bernama {website_name}.
+    Sertakan:
+    1. Bagian selamat datang dengan pernyataan misi yang ditujukan kepada {audience_persona}
+    2. Siapa kami – perkenalan singkat tim/perusahaan menggunakan {author_persona} sebagai referensi
+    3. Nilai-nilai kami dan apa yang membuat {website_name} unik
+    4. Pendekatan konten kami dan apa yang bisa diharapkan {audience_persona}
+    5. Sejarah singkat atau cerita pendirian {website_name}
+    6. Ajakan bertindak untuk {audience_persona}
+    
+    Format dalam Markdown dengan judul yang sesuai. Buat hangat, profesional, dan mengundang.

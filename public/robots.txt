@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /categories/*/page/
+Noindex: /categories/*/page/
+Disallow: /tags/*/page/
+Noindex: /tags/*/page/
+Disallow: /page/
+Noindex: /page/
+
+Sitemap: https://phone.gosite.or.id/sitemap.xml
+Sitemap: https://phone.gosite.or.id/sitemap.xml.gz

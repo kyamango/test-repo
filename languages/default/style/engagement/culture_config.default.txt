@@ -1,0 +1,30 @@
+# Cultural reference configuration for articles
+# Adapt to target language and culture
+
+{
+    "events": [
+        "Independence Day",
+        "Thanksgiving",
+        "New Year's Day"
+    ],
+    "locations": [
+        "New York",
+        "Los Angeles",
+        "Chicago"
+    ],
+    "cuisines": [
+        "Burgers",
+        "Hot Dogs",
+        "Apple Pie"
+    ],
+    "notable_figures": [
+        "Abraham Lincoln",
+        "Martin Luther King Jr.",
+        "Elon Musk"
+    ],
+    "cultural_values": [
+        "Freedom",
+        "Individualism",
+        "Innovation"
+    ]
+}

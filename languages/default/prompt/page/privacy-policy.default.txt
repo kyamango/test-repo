@@ -1,0 +1,13 @@
+Create a comprehensive privacy policy page for {website_name}.
+    Include:
+    1. Introduction to the policy directed to {audience_persona}
+    2. Information we collect from {audience_persona}
+    3. How {website_name} uses collected information
+    4. Cookies and tracking technologies used on {website_name}
+    5. Third-party links and services mentioned on {website_name}
+    6. Data security measures taken by {website_name}
+    7. {audience_persona}' rights regarding their data
+    8. Changes to privacy policy and how {audience_persona} will be notified
+    9. Contact information for {website_name}
+    
+    Format in Markdown with appropriate headings. Make it professional, clear, and compliant with common privacy requirements.

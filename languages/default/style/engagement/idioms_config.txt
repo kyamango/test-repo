@@ -1,0 +1,30 @@
+# Configuration of idioms and phrases for articles
+# Customize to target language
+
+{
+    "greetings": [
+        "Hello everyone",
+        "Good morning",
+        "Hi there"
+    ],
+    "transitions": [
+        "Speaking of which",
+        "Moreover",
+        "Keep in mind that"
+    ],
+    "calls_to_action": [
+        "Give it a try",
+        "Start now",
+        "Don't forget to"
+    ],
+    "common_phrases": [
+        "A blessing in disguise",
+        "The ball is in your court",
+        "Break the ice"
+    ],
+    "closing": [
+        "That's all for now",
+        "See you next time",
+        "Thanks for reading"
+    ]
+}

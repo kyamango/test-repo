@@ -1,0 +1,59 @@
+Review and improve this article about "{keyword}" to meet the following requirements:
+
+Current article:
+---
+{article_excerpt}
+---
+{article_truncation_notice}
+
+Requirements:
+1. LENGTH CHECK: The article should be 1100-1500 words long. Currently it's approximately {word_count} words.
+   {length_recommendation}
+   
+2. TABLE CHECK: The article should include at least one table (markdown format) with relevant data.
+   Types of tables that could be relevant:
+   - Price list/comparison table
+   - Technical specifications
+   - Comparison data
+   - Statistical data
+   Choose the most appropriate table type for this topic.
+   
+3. FIRST PARAGRAPH CHECK: The first paragraph should begin with the article title in italics.
+   Example format: "*Title Here* - First paragraph content..."
+
+4. READABILITY CHECK: The article should have a Flesch Reading Ease score between 50-70 (currently {readability_score}).
+   - Use more common words where appropriate
+   - Break up very long sentences
+   - Use active voice more frequently
+   
+5. SENTENCE VARIATION CHECK:
+   - Mix short, medium, and long sentences (currently {sentence_variation})
+   - Vary sentence openings instead of repeating similar structures
+   - Use a mix of simple, compound, and complex sentences
+   
+6. HUMAN EXPRESSION CHECK: Add natural human expressions:
+   - Include at least one rhetorical question
+   - Add 2-3 personal opinions or subjective statements (like "I believe", "In my view", etc.)
+   - Include 1-2 expressions of emotion (excitement, surprise, concern, etc.)
+   - Add at least one analogy or metaphor
+   - Include 1-2 cultural references or idioms in {language}
+   
+7. AI-DETECTION PREVENTION:
+   - Replace common AI phrases with more unique expressions
+   - Introduce deliberate but minor inconsistencies in formatting (like occasional use of ellipses... or em dashes — or parentheses)
+   - Add a few uncommon word choices or phrasings
+   - Occasionally use more informal transitions between paragraphs
+
+Please provide the FULL IMPROVED ARTICLE with all these requirements satisfied. For any new content, maintain the same writing style, tone, and language as the original article. 
+
+IMPORTANT: 
+- DO NOT include code block markers like ``` or ```markdown in your response
+- DO NOT add any form of introduction about what you're doing
+- Just output the clean article content in markdown format, ready to be published
+- The article should start directly with content, not with any code block markers
+
+Important content requirements:
+- Keep the keyword "{keyword}" well-distributed throughout the text
+- Maintain the original structure but add content where needed
+- Write in {language} language
+- Make sure any added content is factually accurate and relevant to the topic

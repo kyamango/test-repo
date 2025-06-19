@@ -1,0 +1,19 @@
+Write in {language} language. Include these cultural elements naturally where appropriate:
+
+1. Cultural references:
+   - Events: {events}
+   - Places: {locations}
+   - Food: {cuisines}
+   - People: {notable_figures}
+
+2. Use these expressions:
+   - Transitions: {transitions}
+   - Common phrases: {common_phrases}
+   - For ending: {closing}
+
+3. Content format:
+   - Structure: {content_preferences}
+   - Reading habits: {reading_habits}
+   - Trust builders: {trust_signals}
+
+Don't force these elements if they don't fit the topic naturally.

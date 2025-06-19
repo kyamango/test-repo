@@ -1,0 +1,13 @@
+Buat halaman kebijakan privasi yang lengkap untuk {website_name}.
+    Sertakan:
+    1. Pengantar kebijakan yang ditujukan kepada {audience_persona}
+    2. Informasi yang kami kumpulkan dari {audience_persona}
+    3. Bagaimana {website_name} menggunakan informasi yang dikumpulkan
+    4. Cookie dan teknologi pelacakan yang digunakan di {website_name}
+    5. Tautan dan layanan pihak ketiga yang disebutkan di {website_name}
+    6. Langkah-langkah keamanan data yang diambil oleh {website_name}
+    7. Hak {audience_persona} terkait data mereka
+    8. Perubahan kebijakan privasi dan bagaimana {audience_persona} akan diberitahu
+    9. Informasi kontak untuk {website_name}
+    
+    Format dalam Markdown dengan judul yang sesuai. Buat profesional, jelas, dan sesuai dengan persyaratan privasi umum.

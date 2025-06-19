@@ -1,0 +1,8 @@
+[id]:
+indonesia
+jakarta
+bandung
+surabaya
+medan
+jogja
+bali

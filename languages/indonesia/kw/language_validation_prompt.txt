@@ -1,0 +1,5 @@
+Dari daftar kata kunci berikut, tandai mana saja yang menggunakan bahasa {language_code}:
+
+{keywords}
+
+Kembalikan dalam format JSON sebagai daftar kata kunci yang valid saja. Jangan tambahkan penjelasan.

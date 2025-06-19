@@ -1,0 +1,72 @@
+[general]:
+cheap
+best
+latest
+review
+price
+sell
+buy
+recommendation
+tips
+tutorial
+guide
+how to
+
+[comparison]:
+vs
+versus
+compared to
+comparison
+best
+alternatives
+which is better
+
+[price]:
+cheap
+expensive
+price
+discount
+deals
+sale
+affordable
+cost
+
+[location]:
+online
+offline
+marketplace
+store
+shop
+retailer
+where to buy
+
+[quality]:
+best
+worst
+quality
+original
+genuine
+fake
+replica
+authentic
+
+[brand]:
+brand
+manufacturer
+company
+product
+
+[product]:
+{niche}
+{niche} product
+sell {niche}
+buy {niche}
+cheap {niche}
+best {niche}
+{niche} review
+where to buy {niche}
+how to choose {niche}
+top {niche}
+{niche} guide
+{niche} for sale
+{niche} deals

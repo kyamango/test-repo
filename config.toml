@@ -1,0 +1,107 @@
+baseURL = "https://phone.gosite.or.id/"
+languageCode = "en-us"
+title = "Gosite Phone"
+theme = "pehtheme-hugo"
+paginate = "6"
+summaryLength = "20"
+googleAnalytics = "G-MEASUREMENT_ID"
+disqusShortname = "your-disqus-shortname"
+
+[permalinks]
+post = "/:slug/"
+page = "/:slug/"
+category = "/:slug/"
+
+[params]
+logo = "/favicon.png"
+featuredCategory = ""
+description = "Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism."
+footerTagline = "Tagline kustom Anda.<br>Baris berikutnya."
+footerDescription = "Deskripsi kustom Anda. Anda bisa menempatkan informasi website, visi, misi, atau pesan lainnya di sini."
+showAttribution = false
+copyrightName = "Nama Anda"
+copyrightLink = "https://website-anda.com"
+enableFacebookComments = true
+facebookAppID = "YOUR_FACEBOOK_APP_ID"
+facebookLanguage = "id_ID"
+facebookCommentsWidth = "100%"
+facebookCommentsNumPosts = 5
+facebookCommentsColorScheme = "light"
+facebookCommentsOrderBy = "social"
+
+[related]
+includeNewer = true
+threshold = 80
+toLower = false
+
+[params.social]
+facebook = "https://facebook.com/myprofile"
+twitter = "https://twitter.com/myhandle"
+instagram = "https://instagram.com/myaccount"
+linkedin = "https://linkedin.com/in/myprofile"
+
+[params.asideBanner]
+imageUrl = "/iklan/email-3249062_1280_by-Muhammad-Ribkhan-Pixabay.jpg"
+imageAlt = "Banner Email Marketing"
+label = "Advertisement"
+adCode = ""
+
+[params.colors]
+light_background = "#ffffff"
+light_text = "#333333"
+light_accent = "#3b82f6"
+light_secondary = "#f4f4f5"
+light_hover = "#e4e4e7"
+dark_background = "#121212"
+dark_text = "#e0e0e0"
+dark_accent = "#3b82f6"
+dark_secondary = "#27272a"
+dark_hover = "#3f3f46"
+dark_link = "#90caf9"
+
+[params.newsletter]
+title = "Dapatkan Promo Eksklusif!"
+description = "Dapatkan diskon dan penawaran eksklusif langsung ke email Anda dengan berlangganan newsletter kami sekarang."
+affiliateLink = "https://example.com/affiliate-link"
+buttonText = "Saya Tertarik"
+ctaText = "Daftar Sekarang"
+
+[[related.indices]]
+name = "categories"
+weight = 100
+
+[[related.indices]]
+name = "tags"
+weight = 80
+
+[[related.indices]]
+name = "date"
+weight = 10
+
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+
+[[menu.main]]
+name = "About"
+pageRef = "/page/about-us"
+weight = 15
+
+[[menu.main]]
+name = "Tags"
+pageRef = "/tags"
+weight = 20
+
+[[menu.main]]
+name = "Privacy Policy"
+pageRef = "/page/privacy-policy/"
+weight = 25
+
+[module.hugoVersion]
+extended = false
+min = "0.116.0"
+
+[module.mounts]
+source = "static"
+target = "static"

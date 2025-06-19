@@ -1,0 +1,28 @@
+{
+    "greetings": [
+        "Halo semuanya",
+        "Selamat pagi",
+        "Hai semua"
+    ],
+    "transitions": [
+        "Berbicara tentang itu",
+        "Selain itu",
+        "Perlu diingat bahwa"
+    ],
+    "calls_to_action": [
+        "Cobalah sekarang",
+        "Mulai sekarang",
+        "Jangan lupa untuk"
+    ],
+    "common_phrases": [
+        "Ada hikmah di balik musibah",
+        "Bola ada di tangan Anda",
+        "Mencairkan suasana"
+    ],
+    "closing": [
+        "Sekian untuk saat ini",
+        "Sampai jumpa lagi",
+        "Terima kasih telah membaca"
+    ]
+}
+

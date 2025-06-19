@@ -1,0 +1,10 @@
+Buat profil profesional yang unik dan detail untuk penulis bernama {author} di {website_name}.
+    Sertakan:
+    1. Paragraf bio yang menarik (3-4 kalimat) yang menyoroti keahlian dan latar belakang unik {author_persona}
+    2. 4-6 bidang keahlian spesifik (berbeda untuk setiap penulis)
+    3. Latar belakang pendidikan (1-2 kalimat)
+    4. Pengalaman profesional (2-3 kalimat) 
+    5. Bagian singkat tentang hobi atau minat pribadi (1-2 kalimat)
+    
+    Buat agar terdengar autentik, profesional, dan berbeda dari penulis lain. Jangan gunakan deskripsi yang generik.
+    Format dalam Markdown dengan judul yang sesuai.

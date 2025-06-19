@@ -1,0 +1,1 @@
+Buat 10 ide petunjuk kata kunci unik (maksimal 2 kata) yang relevan dengan niche '{niche}', dan dalam bahasa target '{language}'. Hindari petunjuk umum seperti 'cara', 'apa itu', dll. Kembalikan hanya daftar, tanpa angka atau penjelasan.

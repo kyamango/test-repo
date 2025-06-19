@@ -1,0 +1,30 @@
+{
+    "preferred_platforms": [
+        "Facebook",
+        "YouTube",
+        "Reddit"
+    ],
+    "content_preferences": [
+        "Video tutorial singkat",
+        "Infografis",
+        "Artikel bergaya daftar"
+    ],
+    "reading_habits": [
+        "Membaca di desktop",
+        "Lebih suka poin-poin dan judul",
+        "Panjang artikel rata-rata: 600–1200 kata"
+    ],
+    "search_patterns": [
+        "Menggunakan asisten suara",
+        "Mencari dalam Bahasa Indonesia",
+        "Mengklik 3 hasil teratas Google"
+    ],
+    "trust_signals": [
+        "Dukungan ahli",
+        "Ulasan dari situs teknologi",
+        "Pembahasan di forum"
+    ]
+}
+
+
+

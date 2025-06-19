@@ -1,0 +1,43 @@
+<div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+  <div class="flex flex-wrap space-y-6 mb-4">
+    <div class="w-full md:w-3/5 flex flex-col space-y-4 md:pr-8 lg:pr-10">
+      <a class="flex items-center group" href="{{ .Site.BaseURL }}">
+        <span class="bg-blue-500 rounded-full p-1.5 group">
+          <img src="{{ .Site.Params.logo | relURL }}" alt="Logo" class="w-[18px] h-[18px] group-hover:animate-spin" />
+        </span>
+        <span class="ml-2 text-2xl font-semibold uppercase"> {{ .Site.Title }}</span>
+      </a>      
+
+      <p class="font-semibold">
+        {{ .Site.Params.footerTagline | default "Write with love. Minimalism design.<br>Clean code and built in Rembele, Gayo Highland." | safeHTML }}
+      </p>
+      
+      <p>
+        {{ .Site.Params.footerDescription | default "Lorem ipsum dolor sit amet consectetur adipisicing, elit. At nulla, dolorum cumque ad. Officia voluptas excepturi distinctio maiores reiciendis minima aliquid aspernatur. Ullam tenetur saepe debitis, libero, in rerum vero?" }}
+      </p> 
+    </div>
+    <div class="self-center flex flex-col w-full md:w-2/5">
+    {{ partial "content/social-media.html" . }}
+
+    </div>
+  </div>
+
+  <div class="my-8">
+    <ul class="flex items-center space-x-4">
+      {{ range .Site.Menus.main }}
+        <li><a class="decoration-auto hover:underline font-semibold" href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="border-t pt-4">
+    <p class="text-sm">
+      Copyright © {{ now.Year }}. All rights reserved. 
+      {{ if .Site.Params.showAttribution | default true }}
+        <a href="https://insertapps.com/en/" target="_blank" rel="noopener">Insertapps.com</a>
+      {{ else }}
+        <a href="{{ .Site.Params.copyrightLink }}" target="_blank" rel="noopener">{{ .Site.Params.copyrightName }}</a>
+      {{ end }}
+    </p>
+  </div>
+</div>

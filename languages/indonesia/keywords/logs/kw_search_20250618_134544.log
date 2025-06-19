@@ -1,0 +1,37 @@
+2025-06-18 13:45:44,667 - INFO - Log file created at: c:\Hugo\GOHugo\languages\indonesia\keywords\logs\kw_search_20250618_134544.log
+2025-06-18 13:45:44,668 - INFO - ============================================================
+2025-06-18 13:45:44,669 - INFO - AUTOMATIC KEYWORD RESEARCH TOOL
+2025-06-18 13:45:44,669 - INFO - ============================================================
+2025-06-18 13:45:45,490 - INFO - ========================================
+2025-06-18 13:45:45,491 - INFO - Found 5 niches to process: samsung, xiaomi, iphone, huawei, oppo
+2025-06-18 13:45:45,491 - INFO - ========================================
+2025-06-18 13:45:45,508 - INFO - Continuing from last processed niche: huawei
+2025-06-18 13:45:45,509 - INFO - ========================================
+2025-06-18 13:45:45,509 - INFO - 🎯 PROCESSING NICHE 5/5: 'oppo'
+2025-06-18 13:45:45,509 - INFO - ========================================
+2025-06-18 13:45:45,510 - INFO - 📁 Niche directory: c:\Hugo\GOHugo\languages\indonesia\keywords\oppo
+2025-06-18 13:45:45,515 - INFO - Selected region: id
+2025-06-18 13:45:45,515 - INFO - Selected language: id
+2025-06-18 13:45:45,515 - INFO - 🎯 Current niche: oppo
+2025-06-18 13:45:55,085 - INFO - 🎯 Niche terms for filtering: oppo, murah, terbaik, terbaru, review, harga, jual, beli, rekomendasi, tips, tutorial, cara, vs, versus, dibandingkan, perbandingan, pilihan, mahal, diskon, promo, sale, online, offline, marketplace, toko, shop, store, terburuk, berkualitas, original, asli, palsu, kw, merek, merk, brand, produk, produk oppo, jual oppo, beli oppo, oppo murah, oppo terbaik, review oppo
+2025-06-18 13:45:55,085 - INFO - Generated 50 niche-clue pairs for 'oppo'.
+2025-06-18 13:45:55,094 - INFO - Expanded 50 seed keywords to 200 variations
+2025-06-18 13:45:55,110 - INFO - 🔧 Request Handler initialized - Success rate: 100.0%
+2025-06-18 13:46:02,226 - INFO - Original clue keywords: harga terbaru, oppo fotografi
+2025-06-18 13:46:02,226 - INFO - Niche-focused seeds: harga terbaru, oppo fotografi
+2025-06-18 13:46:02,237 - INFO - Expanded 2 seed keywords to 8 variations
+2025-06-18 13:46:02,237 - INFO - Language: id
+2025-06-18 13:46:02,237 - INFO - Region: id
+2025-06-18 13:46:04,405 - INFO - 🎯 After all filtering for 'oppo': 8 relevant keywords
+2025-06-18 13:46:04,415 - INFO - 🎯 Found 4 new keywords for niche 'oppo': oppo fotografi, panduan untuk oppo fotografi, oppo fotografi 101, apa itu oppo fotografi
+2025-06-18 13:46:10,085 - INFO - ✅ Niche 'oppo' process complete! 23 total keyword results.
+2025-06-18 13:46:10,088 - INFO - ✅ Completed processing niche: 'oppo'
+2025-06-18 13:46:10,088 - INFO - 🔧 Request Handler final stats - Success rate: 100.0%
+2025-06-18 13:46:10,088 - INFO -    Total requests: 24567, Blocks: 0
+2025-06-18 13:46:10,093 - INFO - 
+========================================
+2025-06-18 13:46:10,093 - INFO - Process Summary:
+2025-06-18 13:46:10,094 - INFO - - Current niche: 'oppo'
+2025-06-18 13:46:10,094 - INFO - - Next niche will be: 'samsung'
+2025-06-18 13:46:10,094 - INFO - - Keywords saved in: languages/indonesia/keywords/oppo/
+2025-06-18 13:46:10,114 - INFO - ========================================

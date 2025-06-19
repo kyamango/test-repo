@@ -1,0 +1,27 @@
+Write in {language} language while naturally integrating these cultural elements:
+
+1. Cultural Context (integrate at least 3):
+   - Events: {events}
+   - Places: {locations}
+   - Food: {cuisines}
+   - People: {notable_figures}
+   - Values: {cultural_values}
+   - Trends: {modern_trends}
+   - Media: {media_references}
+
+2. Language Style (use throughout):
+   - Transitions: {transitions}
+   - Common phrases: {common_phrases}
+   - Closing phrases: {closing}
+
+3. Content Adaptation:
+   - Match reader preferences: {content_preferences}
+   - Consider reading habits: {reading_habits}
+   - Include trust signals: {trust_signals}
+
+Guidelines:
+- Spread cultural references evenly throughout the article
+- Use at least one reference from each major category
+- Integrate references naturally within the context
+- Maintain cultural authenticity and relevance
+- Avoid forced or artificial references

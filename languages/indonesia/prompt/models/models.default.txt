@@ -1,0 +1,7 @@
+Informatif: Berikan informasi objektif dan komprehensif dengan fakta, data, dan penjelasan yang jelas.
+Ekspositori: Jelaskan secara detail, identifikasi faktor penting, dan hubungkan konsep dengan contoh.
+Deskriptif: Ilustrasikan dengan detail yang hidup, gunakan bahasa yang sensitif, dan buat pembaca membayangkan.
+Naratif: Sajikan dalam bentuk cerita dengan karakter, plot, dan pelajaran yang bisa diambil.
+Persuasif: Yakinkan pembaca dengan argumen kuat, bukti pendukung, dan solusi yang jelas.
+Tutorial: Berikan panduan praktis langkah demi langkah, tips berguna, dan checklist implementasi.
+Analitikal: Uraikan secara kritis, evaluasi berbagai aspek, dan tawarkan perspektif mendalam.

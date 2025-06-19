@@ -1,0 +1,20 @@
+{{- $scripts := slice }}
+
+{{- with resources.Get "js/insertoggle.js" }}
+  {{- $scripts = $scripts | append . }}
+{{- end }}
+
+{{- with resources.Get "js/darkmode.js" }}
+  {{- $scripts = $scripts | append . }}
+{{- end }}
+
+{{- if eq hugo.Environment "development" }}
+  {{- with $scripts | resources.Concat "js/bundle.js" | js.Build }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{- end }}
+{{- else }}
+  {{- $opts := dict "minify" true }}
+  {{- with $scripts | resources.Concat "js/bundle.js" | js.Build $opts | fingerprint }}
+    <script defer src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+  {{- end }}
+{{- end }}

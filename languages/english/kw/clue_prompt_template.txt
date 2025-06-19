@@ -1,0 +1,1 @@
+Create 10 unique keyword clue ideas (in a maximum of 2 words) relevant to the niche '{niche}', and in the target language '{language}'. Avoid generic clues like 'how to', 'what is', etc. Return only the list, without numbers or explanations.

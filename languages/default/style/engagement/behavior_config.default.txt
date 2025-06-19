@@ -1,0 +1,30 @@
+# Configure internet user behavior for articles
+# Adapt to user habits in target countries
+
+{
+    "preferred_platforms": [
+        "Facebook",
+        "YouTube",
+        "Reddit"
+    ],
+    "content_preferences": [
+        "Short how-to videos",
+        "Infographics",
+        "List-style blog posts"
+    ],
+    "reading_habits": [
+        "Reading on desktop",
+        "Prefer bullet points and headings",
+        "Average article length: 600–1200 words"
+    ],
+    "search_patterns": [
+        "Using voice assistants",
+        "Searching in English",
+        "Clicking top 3 Google results"
+    ],
+    "trust_signals": [
+        "Expert endorsements",
+        "Reviews from tech sites",
+        "Mentions on forums"
+    ]
+}

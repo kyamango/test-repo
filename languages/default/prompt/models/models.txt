@@ -1,0 +1,7 @@
+Informative: Provide objective and comprehensive information with facts, data, and clear explanations.
+Expository: Explain in detail, identify important factors, and connect concepts with examples.
+Descriptive: Illustrate with vivid details, use sensory language, and make readers visualize.
+Narrative: Present in story form with characters, plot, and lessons to be learned.
+Persuasive: Convince readers with strong arguments, supporting evidence, and clear solutions.
+Tutorial: Provide step-by-step practical guidance, useful tips, and implementation checklists.
+Analytical: Break down critically, evaluate various aspects, and offer in-depth perspectives.

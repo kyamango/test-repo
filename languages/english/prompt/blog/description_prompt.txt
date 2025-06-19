@@ -1,0 +1,1 @@
+Create a short description for the article about '{keyword}' in {language}. The description should contain the keyword '{keyword}', be informative, interesting to the reader, and no longer than 160 characters. This description will be used for the SEO meta description.

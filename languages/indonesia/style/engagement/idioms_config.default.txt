@@ -1,0 +1,27 @@
+{
+    "salam": [
+        "Halo semuanya",
+        "Selamat pagi",
+        "Hai sobat"
+    ],
+    "transisi": [
+        "Ngomong-ngomong",
+        "Selain itu",
+        "Perlu diingat bahwa"
+    ],
+    "ajakan": [
+        "Cobalah sekarang",
+        "Mulai saja",
+        "Jangan lupa untuk"
+    ],
+    "ungkapan_umum": [
+        "Berkah tersembunyi",
+        "Bola ada di tangan Anda",
+        "Mencairkan suasana"
+    ],
+    "penutup": [
+        "Sekian dulu",
+        "Sampai jumpa lagi",
+        "Terima kasih sudah membaca"
+    ]
+}

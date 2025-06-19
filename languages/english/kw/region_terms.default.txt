@@ -1,0 +1,7 @@
+[us]:
+america
+usa
+united states
+california
+new york
+texas

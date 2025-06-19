@@ -1,0 +1,8 @@
+{{ if .Site.Params.asideBanner.adCode }}
+<div class="rounded-2xl p-4 bg-zinc-100 mb-10">
+    <div class="ad-container">
+        {{ .Site.Params.asideBanner.adCode | safeHTML }}
+    </div>
+    <p class="text-right text-xs mt-2 leading-none text-zinc-500">Advertisement</p>
+</div>
+{{ end }}
